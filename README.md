@@ -10,6 +10,22 @@
 
 MEMentum is an intelligent background daemon that monitors your system memory in real time, classifies every running process by importance, and automatically suspends idle low-priority processes to free RAM for your AI workloads — without closing a single app.
 
+
+## Repository Layout
+
+- `daemon/` — the Rust engine (process monitoring, classification, suspension)
+- `ui/` — the Tauri desktop app
+
+## Quick Start
+
+```bash
+git clone https://github.com/abhiappalla/Mementum
+cd Mementum/daemon
+cargo build --release
+./install.sh
+```
+
+
 ## What it does
 
 - **Protects your AI models** — Ollama and LM Studio get full priority. Chrome tabs wait.
@@ -53,8 +69,8 @@ MEMentum never installs a LaunchAgent, never starts at login, and never runs whe
 
 ### Quick Install (macOS)
 ```bash
-git clone https://github.com/abhiramappalla/mementum-daemon
-cd mementum-daemon
+git clone https://github.com/abhiappalla/Mementum
+cd Mementum/daemon
 cargo build --release
 ./install.sh
 ```
