@@ -1,11 +1,11 @@
-# MEMentum Daemon
+# MEMentum
 
 > Intelligent memory management for AI workloads. Free. Forever.
 
 [![License: Proprietary Freeware](https://img.shields.io/badge/License-Proprietary%20Freeware-gold.svg)]()
 [![Platform: macOS](https://img.shields.io/badge/Platform-macOS-silver.svg)]()
-[![Platform: Windows](https://img.shields.io/badge/Platform-Windows-silver.svg)]()
-[![Platform: Linux](https://img.shields.io/badge/Platform-Linux-silver.svg)]()
+[![Platform: Windows](https://img.shields.io/badge/Platform-Windows%20(untested)-lightgrey.svg)]()
+[![Platform: Linux](https://img.shields.io/badge/Platform-Linux%20(untested)-lightgrey.svg)]()
 [![Built with: Rust](https://img.shields.io/badge/Built%20with-Rust-orange.svg)]()
 
 MEMentum is an intelligent background daemon that monitors your system memory in real time, classifies every running process by importance, and automatically suspends idle low-priority processes to free RAM for your AI workloads — without closing a single app.
