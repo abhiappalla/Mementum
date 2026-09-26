@@ -1,0 +1,17 @@
+# Rust
+daemon/target/
+ui/src-tauri/target/
+
+# Node
+ui/node_modules/
+ui/dist/
+
+# Build artifacts
+ui/src-tauri/binaries/
+
+# Local
+*.log
+.DS_Store
+__MACOSX/
+**/.claude/settings.local.json
+**/.claude/skills/

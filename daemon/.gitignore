@@ -1,0 +1,5 @@
+/target/
+*.log
+.DS_Store
+__MACOSX/
+.claude/settings.local.json
